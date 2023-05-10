@@ -1665,10 +1665,6 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
@@ -1676,13 +1672,12 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		color: #fff !important;
+		color: #ffffff !important;
 		text-decoration: none;
-		font-weight: 700;
+		font-weight: 100;
 		border: 0;
 		outline: 0;
 		cursor: pointer;
-		border-radius: 8px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
@@ -1796,10 +1791,6 @@ input, select, textarea {
 			}
 
 				ul.social li a:before {
-					background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 					-moz-transition: background-color .2s ease-in-out;
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
@@ -1820,7 +1811,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-envelope {
-					background-color: #5C775A;
+					background-color: #00563B;
 				}
 
 				ul.social li a:hover {
@@ -1828,7 +1819,8 @@ input, select, textarea {
 				}
 
 					ul.social li a:hover:before {
-						background-color: transparent;
+						background-color: #00563B;
+						color: #ffffff !important;
 					}
 
 /* Actions */
@@ -1863,7 +1855,7 @@ input, select, textarea {
 		}
 
 			.box.style1 h3 {
-				margin-bottom: 0.5em;
+				margin-bottom: 0.25em;
 			}
 
 		.box.style2 h3 {
@@ -1943,22 +1935,22 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background-color: #fff;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style2 {
-			background-color: #fff;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #ffffff;
+			text-shadow: 1px 1px 0px #ffffff;
 		}
 
 		.wrapper.style3 {
-			background-color: #fff;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #ffffff;
+			text-shadow: 1px 1px 0px #ffffff;
 		}
 
 		.wrapper.style4 {
 			background-color: #00563B;
-			color: #999;
+			color: #ffffff;
 			text-shadow: -1px -1px 0px #181818;
 		}
 
@@ -1997,6 +1989,21 @@ input, select, textarea {
 		line-height: 3.5em;
 	}
 
+		#nav .container{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	
+		#nav .logo {
+			margin-right: auto;
+	  	}
+
+		  #nav .logo img {
+			height: 3.0em;
+			vertical-align: middle;
+		  }
+
 		#nav ul {
 			margin-bottom: 0;
 			list-style: none;
@@ -2018,7 +2025,7 @@ input, select, textarea {
 			color: #fff;
 			text-decoration: none;
 			outline: 0;
-			font-weight: 600;
+			font-weight: 100;
 			border-radius: 8px;
 			color: #fff;
 			height: 2.5em;
@@ -2059,14 +2066,14 @@ input, select, textarea {
 	}
 
 		#top .image {
-			border-radius: 100%;
+			border-radius: 0;
 			width: 20em;
 			height: 20em;
 			margin: 0;
 		}
 
 			#top .image img {
-				border-radius: 100%;
+				border-radius: 0;
 			}
 
 		#top h1 {
@@ -2089,7 +2096,7 @@ input, select, textarea {
 /* Copyright */
 
 	#copyright {
-		color: #666;
+		color: #ffffff;
 		font-size: 1em;
 		line-height: 1em;
 		list-style: none;
